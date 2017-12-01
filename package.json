@@ -1,0 +1,27 @@
+{
+  "name": "user_admin",
+  "version": "1.0.0",
+  "description": "class exercise",
+  "main": "function.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DMWIGGINS/User-Admin.git"
+  },
+  "keywords": [
+    "file",
+    "system",
+    "weather"
+  ],
+  "author": "Doreen Wiggins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DMWIGGINS/User-Admin/issues"
+  },
+  "homepage": "https://github.com/DMWIGGINS/User-Admin#readme",
+  "dependencies": {
+    "weather-js": "^2.0.0"
+  }
+}

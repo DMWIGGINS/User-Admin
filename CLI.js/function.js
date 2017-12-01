@@ -1,16 +1,6 @@
-var fs = require("fs");
-// var weather = require("weather-js");
 
 
-var getLog = function () {
-
-    fs.readFile("log.txt", "utf8", function (error, data) {
-        if (error) {
-            return console.log(error);
-        } else if (process.argv[2] === "admin") {
-            console.log(data);
-        }
-    });
-}
-
-getLog();
+var char1 = new Character("Amazania", "Amazon Warrior", "female", 40, 10, 25);
+var char2 = new Character("Billy", "Crimefighter", "male", 41, 5, 20)
+char1.printStats();
+char2.printStats();
